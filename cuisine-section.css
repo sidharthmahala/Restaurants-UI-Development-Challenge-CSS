@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.cuisine-container{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin:50px 20px;
+}
+.cuisine-card{
+    width: 33%;
+    margin: 0 10px;
+}
+
+.cuisine-name{
+    margin: 10px;
+}
+.cuisine-description{
+    padding: 10px
+}
+
+@media only screen and (max-width: 710px) {
+    .cuisine-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin:50px 20px;
+    }
+    .cuisine-card{
+       width: auto;
+    }
+    
+}
